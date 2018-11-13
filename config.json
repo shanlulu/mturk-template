@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "Experiment Title",
-        "description": "desc",
+        "title": "Shan's Experiment Title",
+        "description": "This is the experiment description",
         "numSubtasks": 3,
         "disclaimer": "This is a disclaimer. You are participating in this experiment voluntarily.",
         "aggregate": false
@@ -9,19 +9,19 @@
     "instructions": {
         "simple": "These are simple instructions for <b>3</b> tasks",
         "steps": [
-            "instruction1",
-            "instruction2",
-            "instruction3"
+            "step 1",
+            "step 2",
+            "step 3"
         ],
         "images": []
     },
     "hitCreation": {
-        "title": "HIT Title",
-        "description": "HIT description",
+        "title": "MTurk HIT Title",
+        "description": "MTurk HIT description",
         "numTasks": 5,
         "numAssignments": 100,
         "rewardAmount": "0.00",
-        "keywords": "these, are, your, HIT, tags",
+        "keywords": "some, keywords, for, your, HIT, tags",
         "duration": 1200,
         "lifetime": 86400,
         "taskUrl": "",
@@ -31,7 +31,7 @@
     "advanced": {
         "includeDemographicSurvey": false,
         "hideIfNotAccepted": false,
-        "externalSubmit": false,
-        "externalSubmitUrl": ""
+        "externalSubmit": true,
+        "externalSubmitUrl": "http://localhost:8010/data"
     }
 }
